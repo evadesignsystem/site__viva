@@ -946,13 +946,14 @@ video {
 /* INPUTS */
 
 .input-floating {
+  box-sizing: border-box;
   width: 100%;
   border-radius: 0.5rem;
   border-width: 1px;
   --tw-border-opacity: 1;
   border-color: rgb(195 199 199 / var(--tw-border-opacity));
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
   padding-left: 0.75rem;
   padding-right: 0.75rem;
   font-size: 0.875rem;
@@ -1265,6 +1266,14 @@ video {
   top: 40vh;
 }
 
+.right-96 {
+  right: 24rem;
+}
+
+.right-80 {
+  right: 20rem;
+}
+
 .-z-10 {
   z-index: -10;
 }
@@ -1427,6 +1436,10 @@ video {
 
 .mt-\[3px\] {
   margin-top: 3px;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .box-border {
@@ -1770,6 +1783,26 @@ video {
   width: 100vw;
 }
 
+.w-96 {
+  width: 24rem;
+}
+
+.w-\[96\] {
+  width: 96;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[420px\] {
+  width: 420px;
+}
+
+.w-\[480px\] {
+  width: 480px;
+}
+
 .min-w-0 {
   min-width: 0px;
 }
@@ -1986,8 +2019,8 @@ video {
   scroll-snap-type: y var(--tw-scroll-snap-strictness);
 }
 
-.snap-mandatory {
-  --tw-scroll-snap-strictness: mandatory;
+.snap-proximity {
+  --tw-scroll-snap-strictness: proximity;
 }
 
 .snap-start {
@@ -2427,6 +2460,10 @@ video {
   background-image: url('../src/img/contact-woman.jpg');
 }
 
+.bg-\[url\(\'\.\.\/src\/img\/sobre\.jpg\'\)\] {
+  background-image: url('../src/img/sobre.jpg');
+}
+
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -2612,6 +2649,11 @@ video {
   padding-bottom: 0.4rem;
 }
 
+.py-\[0\.625rem\] {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+
 .py-\[10px\] {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -2777,6 +2819,24 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-h6 {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+
+.text-h4 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 500;
+}
+
+.text-caption {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 400;
 }
 
 .font-bold {
@@ -3117,11 +3177,6 @@ video {
 
 .blur {
   --tw-blur: blur(8px);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.invert {
-  --tw-invert: invert(100%);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
