@@ -1442,6 +1442,10 @@ video {
   margin-bottom: 2rem;
 }
 
+.mt-48 {
+  margin-top: 12rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -1801,6 +1805,26 @@ video {
 
 .w-\[480px\] {
   width: 480px;
+}
+
+.w-48 {
+  width: 12rem;
+}
+
+.w-\[320\] {
+  width: 320;
+}
+
+.w-\[320px\] {
+  width: 320px;
+}
+
+.w-\[280px\] {
+  width: 280px;
+}
+
+.w-\[500px\] {
+  width: 500px;
 }
 
 .min-w-0 {
