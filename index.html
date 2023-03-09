@@ -288,10 +288,40 @@
                 <div class="h-full w-2/4 bg-[url('../src/img/contact-woman.jpg')] bg-cover bg-center"></div>
                 <div class="w-full p-16">
 
-                    <h1 class="text-h3">Entrar em contato</h1>
-                    <p>24 horas por dia, 7 dias por semana. Responderemos às suas perguntas e problemas.</p>
+                    <h1 class="text-h3 w-[500px]">Entre em contato conosco e tire todas as suas dúvidas!</h1>
+                    <p></p>
 
-                    <form class="grid grid-cols-6 gap-6 m-16" action="">
+                    <div class="relative left-8">
+                        <div class="mt-24 mb-4">
+                            <h4 class="text-h6">E-mail</h4>
+                            <div
+                                data-te-chip-init
+                                data-te-ripple-init
+                                class="[word-wrap: break-word] w-fit my-[5px] mr-4 flex h-[32px] cursor-pointer items-center justify-between rounded-[16px] bg-[#eceff1] py-0 px-[12px] text-[13px] font-normal normal-case leading-loose text-[#4f4f4f] shadow-none transition-[opacity] duration-300 ease-linear hover:!shadow-none active:bg-[#cacfd1] dark:bg-neutral-600 dark:text-neutral-200"
+                                data-te-close="true">
+                                <a href="mailto:comercial@vivabr.com.br">comercial@vivabr.com.br</a>
+                            </div>
+                            
+                        </div>
+    
+                        <div class="">
+                            <h4 class="text-h6">Telefone</h4>
+                            <div
+                                data-te-chip-init
+                                data-te-ripple-init
+                                class="[word-wrap: break-word] w-fit my-[5px] mr-4 flex h-[32px] cursor-pointer items-center justify-between rounded-[16px] bg-[#eceff1] py-0 px-[12px] text-[13px] font-normal normal-case leading-loose text-[#4f4f4f] shadow-none transition-[opacity] duration-300 ease-linear hover:!shadow-none active:bg-[#cacfd1] dark:bg-neutral-600 dark:text-neutral-200"
+                                data-te-close="true">
+                                <a href="tel:+552130054078">+55 (21) 3005-4078</a>
+                            </div>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="w-full relative flex justify-end">
+                        <img class="w-[5%] absolute top-[7rem] -right-6 opacity-60" src="./src/img/favicon.svg" alt="">
+                    </div>
+                    
+
+                    <form class="grid grid-cols-6 gap-6 m-16 hidden" action="">
 
                         <div class="relative col-span-3">
                             <input class="peer input-floating" id="f_name" type="text" placeholder="Primeiro Nome">
